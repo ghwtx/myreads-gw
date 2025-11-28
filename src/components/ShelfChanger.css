@@ -1,0 +1,44 @@
+.shelf-changer {
+  position: absolute;
+  bottom: -16px;
+  right: -16px;
+  width: 48px;
+  height: 48px;
+}
+
+.shelf-changer__select {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  cursor: pointer;
+  z-index: 20;
+}
+
+.shelf-changer__button {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  border: none;
+  border-radius: 50%;
+  background-color: #047857;
+  color: white;
+  pointer-events: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.2s ease;
+  z-index: 10;
+}
+
+.shelf-changer__select:hover + .shelf-changer__button,
+.shelf-changer__select:focus + .shelf-changer__button {
+  background-color: #065f46;
+}
+
+.shelf-changer__select:active + .shelf-changer__button {
+  background-color: #064e3b;
+}

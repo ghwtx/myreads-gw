@@ -1,0 +1,54 @@
+.book-shelf {
+  margin-bottom: 48px;
+  padding: 0 32px;
+}
+
+.book-shelf__header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 24px;
+  padding-bottom: 8px;
+  border-bottom: 2px solid #ecfdf5;
+}
+
+.book-shelf__icon {
+  font-size: 1.75rem;
+  color: #059669;
+}
+
+.book-shelf__title {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #1f2937;
+}
+
+.book-shelf__count {
+  margin-left: auto;
+  background-color: #d1fae5;
+  color: #065f46;
+  font-size: 0.75rem;
+  font-weight: bold;
+  padding: 4px 8px;
+  border-radius: 9999px;
+}
+
+.book-shelf__empty {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+  background-color: #f9fafb;
+  border: 2px dashed #e5e7eb;
+  border-radius: 8px;
+  text-align: center;
+  color: #9ca3af;
+}
+
+.book-shelf__grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 32px;
+}
