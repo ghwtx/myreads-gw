@@ -72,16 +72,6 @@ The application follows a clean architecture with:
 - **Unidirectional Data Flow**: State flows down, callbacks flow up
 - **Optimistic Updates**: UI updates immediately while API calls complete in background
 
-## Code Quality
-
-This project follows the Udacity Front-End Style Guide with:
-
-- JSDoc comments for all functions
-- Consistent naming conventions
-- Proper error handling
-- No trailing whitespace
-- Semicolons on all statements
-
 ## API Integration
 
 The application uses the Udacity Books API to:
