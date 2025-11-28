@@ -7,9 +7,6 @@ A React-based bookshelf application that allows users to select and categorize b
 - **Three Book Shelves**: Organize books into "Currently Reading," "Want to Read," and "Read"
 - **Search Functionality**: Search for books by title or author in a full-screen search overlay
 - **Book Management**: Easily move books between shelves or remove them from your library
-- **Responsive Design**: Optimized for desktop and laptop monitors
-- **Real-time Updates**: Changes are reflected immediately in the UI with optimistic updates
-- **Graceful Error Handling**: Automatic recovery from failed API requests
 
 ## Getting Started
 
@@ -91,7 +88,3 @@ The application uses the Udacity Books API to:
 - Fetch user's current book collection
 - Search for books by title or author
 - Update book shelf assignments
-
-## Browser Support
-
-This application is designed for modern browsers and tested on desktop/laptop monitors.
