@@ -1,6 +1,6 @@
 # MyReads - Book Management Application
 
-A React-based bookshelf application that allows users to select and categorize books into three shelves: Currently Reading, Want to Read, and Read. Users can search for new books and manage their personal library with an intuitive interface.
+A React-based bookshelf application that allows users to select and categorize books into three shelves: Currently Reading, Want to Read, and Read. Users can search for new books and manage their personal library.
 
 ## Features
 
