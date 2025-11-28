@@ -1,12 +1,10 @@
-import { getBookGradient } from '../utils/constants';
 import './BookCover.css';
 
 /**
- * @description BookCover component - displays a book cover with gradient fallback
+ * @description BookCover component - displays a book cover with color fallback
  * Reusable component for showing book visual representation
  */
 export const BookCover = ({ book }) => {
-  const gradient = getBookGradient(book.id);
   const imageUrl = book.imageLinks?.thumbnail;
   const title = book.title || 'Unknown Title';
   const authors = book.authors?.join(', ') || 'Unknown Author';
@@ -17,9 +15,7 @@ export const BookCover = ({ book }) => {
       style={
         imageUrl
           ? { backgroundImage: `url(${imageUrl})` }
-          : {
-              background: `linear-gradient(135deg, ${gradient.from}, ${gradient.to})`,
-            }
+          : { backgroundColor: '#e5e7eb' }
       }
     >
       {!imageUrl && (
