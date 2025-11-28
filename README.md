@@ -13,7 +13,7 @@ A React-based bookshelf application that allows users to select and categorize b
 ### Prerequisites
 
 - Node.js (v14 or higher)
-- npm or yarn package manager
+- npm package manager
 
 ### Installation
 
